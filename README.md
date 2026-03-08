@@ -7,7 +7,7 @@ Source code for the MinID-X Android application described in [Paper Title] (Comp
 
 ## Installation & Setup
 1. Clone this repository.
-2. **Download the Database:** The database file (000 MB) is hosted on Zenodo due to size constraints.
+2. **Download the Database:** The database file (000 MB) and Excel data file are hosted on Zenodo due to size constraints.
    - Download Link: [INSERT ZENODO DOI LINK]
    - Place the downloaded `minidx_database.db` (or `.zip`) into: `app/src/main/assets/`
 3. Open the project in Android Studio.
