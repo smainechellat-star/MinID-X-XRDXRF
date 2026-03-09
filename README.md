@@ -219,8 +219,8 @@ This project is proprietary. All rights reserved.
 ## Support & Feedback
 
 For issues, questions, or feature requests:
-- Email: [Contact information to be added]
-- GitHub Issues: [Create an issue on the repository]
+- Email: smaine.chellat@gmail.com
+- GitHub Issues: [(https://github.com/smainechellat-star/XRDXRF)]
 - Contact Form: Use the "Contact Us" option in the app
 
 ## Version History
@@ -253,3 +253,4 @@ The developers are not responsible for identifications made solely using this ap
 **Last Updated**: February 4, 2026  
 **Repository**: https://github.com/smainechellat-star/XRDXRF  
 **Developed by**: Smaine Chellat
+
