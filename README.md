@@ -155,6 +155,8 @@ The app includes:
 - **Chemical Formulas**: Standard mineral chemical compositions
 
 Database is automatically extracted on first launch.
+Download the Database:** The database file (299 MB) is hosted on Zenodo due to size constraints.
+   - Download Link: (https://doi.org/10.5281/zenodo.18924300)
 
 ## Search Methodology
 
@@ -253,4 +255,5 @@ The developers are not responsible for identifications made solely using this ap
 **Last Updated**: February 4, 2026  
 **Repository**: https://github.com/smainechellat-star/XRDXRF  
 **Developed by**: Smaine Chellat
+
 
