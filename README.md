@@ -3,7 +3,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18924300.svg)](https://doi.org/10.5281/zenodo.18924300)
-**Version 2.0**: [10.5281/zenodo.xxxxxxxx](https://doi.org/10.5281/zenodo.xxxxxxxx) under revision
+Simplified and full application and databse
+XRD-XRF application plus; [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19038857.svg)](https://doi.org/10.5281/zenodo.19038857)
 
 A powerful Android application for mineral identification using X-Ray Diffraction (XRD) and X-Ray Fluorescence (XRF) reference data. MinID-X brings laboratory-grade mineralogical analysis to field settings through intelligent database compression and offline-first architecture, enabling rapid mineral identification in remote geological environments.
 
