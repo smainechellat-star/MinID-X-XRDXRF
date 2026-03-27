@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">XRD-XRF</string>
+    <string name="app_description">Comprehensive mineral identification using XRD and XRF data</string>
+    <string name="btn_xrd_identification">XRD IDENTIFICATION</string>
+    <string name="btn_xrf_energy_lookup">XRF ENERGY LOOKUP</string>
+</resources>
