@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Header -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XRD Mineral Name Search"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Category Selection -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Category:"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp" />
+
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:padding="12dp"
+        android:background="@android:drawable/editbox_background" />
+
+    <!-- Input Section -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Substance/Mineral Name:"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginTop="16dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/actvMineralName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Type mineral name (e.g., Quartz...)"
+        android:inputType="text"
+        android:layout_marginTop="8dp"
+        android:padding="12dp"
+        android:completionHint="Select a mineral" />
+
+    <Button
+        android:id="@+id/btnSearchMineral"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Results Section in ScrollView -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Crystal System -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@android:drawable/editbox_background"
+                android:padding="12dp"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Crystal System:"
+                    android:textStyle="bold"
+                    android:textSize="13sp"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:id="@+id/tvCrystalSystemResult"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="---"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <!-- Chemical Formula -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@android:drawable/editbox_background"
+                android:padding="12dp"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chemical Formula:"
+                    android:textStyle="bold"
+                    android:textSize="13sp"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:id="@+id/tvFormulaResult"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="---"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <!-- d-spacing Data Header -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="d-spacing Data (Å | Intensity):"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:layout_marginBottom="8dp" />
+
+            <!-- d-spacing Container -->
+            <LinearLayout
+                android:id="@+id/llDSpacingContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@android:drawable/editbox_background"
+                android:padding="12dp"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Time to Result -->
+            <TextView
+                android:id="@+id/tvTimeToResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Time to First Result: ---"
+                android:textSize="11sp"
+                android:textStyle="italic"
+                android:gravity="center"
+                android:textColor="#666666" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

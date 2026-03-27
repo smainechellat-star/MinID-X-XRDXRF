@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Search Inputs -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XRD Cryst. Sys Identification"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Crystal System Dropdown -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Crystallin System:" />
+
+    <Spinner
+        android:id="@+id/spinnerSystem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Chemical Formula Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tiLayoutFormula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Chemical Formula (e.g., SiO2)">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etFormula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:singleLine="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Search Button -->
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Timer Display -->
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time: 0 ms"
+        android:textAlignment="center"
+        android:textColor="#FF6200EE"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:visibility="invisible"/>
+
+    <!-- Results List -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvResults"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"/>
+
+</LinearLayout>
+

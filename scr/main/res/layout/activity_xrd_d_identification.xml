@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Main Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Header and Input Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="12dp"
+                android:background="#FFFFFF">
+
+                <!-- Header -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="XRD d(A) Spacing Search"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="16dp" />
+
+                <!-- Category Selection -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select Category:"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="4dp" />
+
+                <Spinner
+                    android:id="@+id/spinnerCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="12dp"
+                    android:padding="8dp"
+                    android:background="@android:drawable/editbox_background" />
+
+                <!-- Input Section -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enter at least 3 D-Spacing Values (Ångströms):"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="d4 and d5 are optional"
+                    android:textSize="12sp"
+                    android:textColor="#666666"
+                    android:layout_marginBottom="8dp" />
+
+                <!-- D-spacing input fields -->
+                <EditText
+                    android:id="@+id/etD1"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="d1 (e.g., 3.360)"
+                    android:inputType="numberDecimal"
+                    android:padding="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textSize="14sp"
+                    android:background="@android:drawable/editbox_background" />
+
+                <EditText
+                    android:id="@+id/etD2"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="d2 (e.g., 3.350)"
+                    android:inputType="numberDecimal"
+                    android:padding="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textSize="14sp"
+                    android:background="@android:drawable/editbox_background" />
+
+                <EditText
+                    android:id="@+id/etD3"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="d3 (e.g., 3.340)"
+                    android:inputType="numberDecimal"
+                    android:padding="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textSize="14sp"
+                    android:background="@android:drawable/editbox_background" />
+
+                <EditText
+                    android:id="@+id/etD4"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="d4 (optional, e.g., 3.330)"
+                    android:inputType="numberDecimal"
+                    android:padding="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textSize="14sp"
+                    android:background="@android:drawable/editbox_background" />
+
+                <EditText
+                    android:id="@+id/etD5"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:hint="d5 (optional, e.g., 3.320)"
+                    android:inputType="numberDecimal"
+                    android:padding="8dp"
+                    android:layout_marginBottom="12dp"
+                    android:textSize="14sp"
+                    android:background="@android:drawable/editbox_background" />
+
+                <Button
+                    android:id="@+id/btnSearch"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:text="SEARCH"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="12dp" />
+
+            </LinearLayout>
+
+            <!-- Results Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/resultsContainer"
+                android:padding="12dp"
+                android:background="#F5F5F5"
+                android:minHeight="200dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Search results will appear here"
+                    android:textSize="14sp"
+                    android:textColor="#666666"
+                    android:layout_marginTop="8dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvTimeToResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Time to First Result: ---"
+                android:textSize="11sp"
+                android:textStyle="italic"
+                android:gravity="center"
+                android:layout_marginTop="12dp"
+                android:textColor="#666666" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

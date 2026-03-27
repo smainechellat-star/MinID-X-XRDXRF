@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="XRD-XRF Mineral Identification App"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A powerful Android application for mineral identification using X-Ray Diffraction (XRD) and X-Ray Fluorescence (XRF) data analysis."
+            android:textSize="14sp"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Features"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="XRD Analysis\n• XRD M Identification\n• XRD d(A) Identification\n• XRD Crystal System Identification\n• XRD Chemical Formula Identification\n\nXRF Analysis\n• Element Detection\n• Direct Search\n• Energy-based Lookup\n\nDatabase Features\n• Comprehensive mineral database\n• Chemical formula information\n• Crystal system classification"
+            android:textSize="13sp"
+            android:lineSpacingMultiplier="1.4"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to Use - XRD Analysis"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Select Analysis Type from main menu\n2. Choose one of four identification methods\n3. Enter your data (M values, d-spacing, crystal system, or formula)\n4. Adjust tolerance if needed\n5. View results matching your criteria\n6. Tap a mineral to see detailed information"
+            android:textSize="13sp"
+            android:lineSpacingMultiplier="1.4"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to Use - XRF Analysis"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Select Element Search from main menu\n2. Enter the element symbol (e.g., Fe, Cu, Zn)\n3. Choose search method (Direct or Energy-based)\n4. Review results showing minerals containing the element\n5. Tap a result for more details"
+            android:textSize="13sp"
+            android:lineSpacingMultiplier="1.4"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Database Information"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The app includes:\n• COD Database - Crystallography Open Database minerals\n• RRUFF Database - Spectroscopy data and mineral references\n• Complete XRD Patterns - For accurate mineral identification\n• Chemical Formulas - Standard mineral compositions"
+            android:textSize="13sp"
+            android:lineSpacingMultiplier="1.4"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="System Requirements"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Android Version: 8.0 (API 26) or higher\n• RAM: 2GB minimum recommended\n• Storage: ~50MB for app and databases\n• Screen: Works on all Android devices"
+            android:textSize="13sp"
+            android:lineSpacingMultiplier="1.4"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Troubleshooting"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Database Not Loading\n• Ensure 100MB free storage\n• Check internet connection\n• Try restarting the app\n\nNo Results Found\n• Increase tolerance value\n• Verify data entry\n• Check if mineral is in database\n\nApp Crashes\n• Update to Android 8.0+\n• Clear app cache\n• Reinstall the app"
+            android:textSize="13sp"
+            android:lineSpacingMultiplier="1.4"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Performance Tips"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Storage: Keep 50MB free space minimum\n• Memory: Close unnecessary apps\n• WiFi: Use for database updates"
+            android:textSize="13sp"
+            android:lineSpacingMultiplier="1.4"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Credits"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Developer: CHELLAT Smaine\nInstitution: University Constantine 1, Geological Department\n\nDatabase Sources:\n• Crystallography Open Database (COD)\n• RRUFF Database"
+            android:textSize="13sp"
+            android:lineSpacingMultiplier="1.4"
+            android:paddingBottom="24dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
+

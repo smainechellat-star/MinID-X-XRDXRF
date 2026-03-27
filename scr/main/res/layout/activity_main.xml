@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:paddingStart="40dp"
+    android:paddingEnd="40dp">
+
+    <!-- Settings Button (Top Right) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp">
+
+        <Button
+            android:id="@+id/btnSettings"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="⚙"
+            android:textSize="24sp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Settings" />
+
+    </LinearLayout>
+
+    <!-- Main container for centered buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- XRD Identification Button -->
+        <Button
+            android:id="@+id/btnXrdIdentification"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/btn_xrd_identification"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_black"
+            android:background="@drawable/btn_xrd_green"
+            android:stateListAnimator="@null"
+            android:elevation="0dp" />
+
+        <!-- Vertical spacing between buttons (24dp) -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
+        <!-- XRF Energy Lookup Button -->
+        <Button
+            android:id="@+id/btnXrfEnergyLookup"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/btn_xrf_energy_lookup"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_black"
+            android:background="@drawable/btn_xrf_pink"
+            android:stateListAnimator="@null"
+            android:elevation="0dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

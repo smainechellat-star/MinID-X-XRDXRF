@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="24dp"/>
+
+    <!-- Read-me Button -->
+    <Button
+        android:id="@+id/btnReadMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read-me"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- About Button -->
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About &amp; Licence"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Contact Us Button -->
+    <Button
+        android:id="@+id/btnContactUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textSize="16sp"/>
+
+</LinearLayout>
+
