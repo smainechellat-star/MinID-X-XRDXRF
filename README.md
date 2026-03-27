@@ -3,7 +3,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18924300.svg)](https://doi.org/10.5281/zenodo.18924300)
-Simplified and full application and databse
+Simplified and full application and database
 XRD-XRF application plus; [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19038857.svg)](https://doi.org/10.5281/zenodo.19038857)
 Geosciences version [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19059664.svg)](https://doi.org/10.5281/zenodo.19059664)
 
