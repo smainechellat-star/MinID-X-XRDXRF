@@ -67,7 +67,7 @@ A powerful Android application for mineral identification using X-Ray Diffractio
 ## Installation
 
 ### From APK/AAB
-1. Download the latest `app-release.apk` or `app-release.aab` from the [Releases](https://github.com/smainechellat-star/MinID-X/releases) page
+1. Download the latest `app-release.apk` or `app-release.aab` from the [Releases](https://github.com/smainechellat-star/MinID-X-XRDXRF/releases) page
 2. Enable installation from unknown sources in your device settings:
    - Settings → Security → Unknown Sources (enable)
 3. Install the APK on your Android device
