@@ -58,7 +58,7 @@ A powerful Android application for mineral identification using X-Ray Diffractio
 
 - **Android Version**: 7.0 (API Level 24) or higher
 - **RAM**: Minimum 2 GB recommended
-- **Storage**: ~400 MB (50 MB for app + 299 MB for extracted database)
+- **Storage**: ~400 MB (50 MB for app + 196 MB for extracted database)
 - **Screen Size**: Compatible with all Android devices (phones, tablets)
 - **Processor**: Any modern ARM processor
 - **Free Storage**: At least 400 MB recommended for first-launch extraction
